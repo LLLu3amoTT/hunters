@@ -1,0 +1,293 @@
+/* Доп стили */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:active, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Осн код */
+
+body {
+    background: linear-gradient(0deg, rgba(102,0,0,1) 0%, rgba(176,0,0,1) 25%, rgba(255,0,0,1) 50%, rgba(176,0,0,1) 75%, rgba(91,0,0,1) 100%) no-repeat center top;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    background-color: #f9f9fd;
+}
+
+.naw {
+    height: 80px;
+    width: 100%;
+    background-color: #33333336;
+    display: flex;
+}
+
+.img-naw {
+    height: 90px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.naw-list {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    list-style: none;
+    color: white;
+}
+
+.le_text {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lver-hr {
+    background-color: white;
+    height: 50px;
+    width: 2px;
+    margin-top: -10px;
+}
+
+.Info {
+    margin-top: 22px;
+    width: 80%;
+    margin: auto;
+}
+
+.info-header {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-conteiner {
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-align: start;
+}
+
+.in-content{
+    font-size: 18px;
+}
+
+#fam-name{
+    color: rgb(245, 255, 108);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#fam-name::before{
+    content: "Название семьи: ";
+    font-size: 20px;
+    color: white;
+}
+
+#leader, #zam2, #zam1, #lvl, #cars, #home, #flat, #fam-type {
+    color: rgb(245, 255, 108);
+}
+
+#leader::before {
+    content: "Глава семьи: Винсон Глок ( Winson_Glok ) | Discord: ";
+    font-size: 20px;
+    color: white;
+}
+
+#zam1::before {
+    content: "Зам. Главы семьи: Даниил Глок ( Daniil_Glok ) | Discord: ";
+    font-size: 20px;
+    color: white;
+}
+
+#zam2::before {
+    content: "Зам. Главы семьи: Алексей Сузз ( Alexey_Suzzer ) | Discord: ";
+    font-size: 20px;
+    color: white;
+}
+
+#lvl::before {
+    content: "Уровень семьи: ";
+    font-size: 20px;
+    color: white;
+}
+
+#cars::before {
+    content: "Автопарк семьи: ";
+    font-size: 20px;
+    color: white;
+}
+
+#home::before {
+    content: "Семейный дом: ";
+    font-size: 20px;
+    color: white; 
+}
+
+#flat::before {
+    content: "Cемейная квартира: ";
+    font-size: 20px;
+    color: white; 
+}
+
+#fam-type::before {
+    content: "Тип семьи: ";
+    font-size: 20px;
+    color: white;
+}
+
+#discord_url {
+    color: #6666FF;
+}
+
+#discord_url:hover {
+    color: #6666FF;
+    text-decoration: underline;
+}
+
+#discord::before {
+    content: "Присоиденяйся к нам в discord: ";
+    font-size: 20px;
+    color: white;
+}
+
+.fam-news {
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-height: 290px;
+    width: 905px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.fam-news::-webkit-scrollbar {
+    width: 0px;
+    background-color: #f9f9fd;
+}
+
+.fam-conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: black;
+}
+
+.tops {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 70px;
+}
+
+.top-list {
+    /* border: 1px solid black; */
+    margin: 5px 10px 0px 10px;
+}
+
+.tops-ul {
+    list-style: none;
+}
+
+.tops-top1 {
+    color: gold;
+}
+.tops-top2 {
+    color: silver;
+}
+.tops-top3 {
+    color: #d6883a;
+}
+
+.form-block {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.rules {
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.ru-list {
+    margin-left: 40px;
+}
+#ru-list {
+    list-style: none;
+}
+
+.burger-icon {
+    display: none;
+}
+
+/* .burger {
+    display: none;
+} */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    .burger {
+        z-index: 500;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-right: 15px;
+        margin-top: -10px;
+    }
+    .le-burger {
+        text-align: center;
+        display: none;
+        height: 50px;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.733);
+    }
+    .fa-bars {
+        z-index: 500;
+        color: rgb(190, 0, 0);
+        font-size: 50px;
+        display: block;
+    }
+    .naw-list{
+        display: block;
+    }
+    .naw-list:hover > .le-burger{
+        z-index: 500;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1129px){
+    .fam-news{
+        width: 450px;
+    }
+}

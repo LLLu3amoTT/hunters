@@ -237,7 +237,7 @@ body::-webkit-scrollbar {
 }
 
 .hover-block {
-    margin-left: -35px;
+    margin-left: -40px;
 }
 
 .hover-ul {
@@ -317,11 +317,14 @@ body::-webkit-scrollbar {
         z-index: 500;
         display: block;
     }
+    .form-container {
+        width: 100%;
+    }
     .form-block {
-        width: 320px;
+        width: 100%;
     }
     .hover-ul {
-        width: 352px;
+        width: 100%;
     }
     .tops {
         display: block;
